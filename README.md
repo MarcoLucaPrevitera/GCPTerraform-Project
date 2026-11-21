@@ -1,16 +1,16 @@
 # Cloud-Based Restaurant Data Pipeline with GCP and Terraform
 
 ## Project Overview
-The project involves building a cloud-based data pipeline to process and analyse a simplified demo restaurant sales dataset using Python, Terraform, Google Cloud Platform (GCP), and BigQuery.
-
-This is a personal project to learn and get hands-on experience with cloud-based Data Engineering technologies.
+The project involves building a cloud-based data pipeline to process and analyse a simplified demo restaurant sales dataset using Python, Terraform, Google Cloud Platform (GCP), and BigQuery. This is a personal project to learn and get hands-on experience with cloud-based Data Engineering technologies.
 
 This pipeline processes sales records, identifies and removes invalid and duplicate entries, and uploads the resulting cleaned dataset to Google Cloud Storage (GCS). The cleaned dataset is subsequently loaded into Google BigQuery, where it can be queried with SQL and analysed directly within the cloud environment.
 
 The infrastructure is managed as code using Terraform, allowing cloud
 resources to be provisioned and maintained in a reproducible way.
 
-The project demonstrates fundamental Data Engineering concepts,
+![Data Pipeline Architecture](architecture.png)
+
+The project demonstrates various concepts and technologies,
 including:
 
 -   Data ingestion and transformation with Python.
@@ -20,36 +20,7 @@ including:
 -   Infrastructure as Code with Terraform.
 -   Analytical SQL queries.
 
-## Architecture
 
-
-
-## Repository Structure
-
-``` text
-restaurant-data-pipeline/
-│
-├── data/
-│   ├── orders.csv
-│   └── orders_clean.csv
-│
-├── src/
-│   └── etl.py
-│
-├── terraform/
-│   ├── main.tf
-│   ├── storage.tf
-│   ├── bigquery.tf
-│   └── table.tf
-│
-├── sql/
-│   ├── sales_analysis.sql
-│   ├── daily_sales.sql
-│   └── top_products.sql
-│
-├── .gitignore
-└── README.md
-```
 
 ## 1. Prerequisites
 
@@ -64,7 +35,7 @@ The project uses the following GCP configuration:
 
 | Setting | Value |
 |---|---|
-| Project name | `restaurant-data-pipeline` |
+| GCP Project name | `restaurant-data-pipeline` |
 | Region | `europe-west1` |
 | Storage location | `EU` |
 | BigQuery dataset name | `restaurant_analytics` |
@@ -91,11 +62,11 @@ records to demonstrate data quality checks.
 
 ## 3. Python Environment Setup
 
-Clone the repository and navigate to the project directory:
+Clone this repository and navigate to the project directory:
 
 ``` bash
 git clone https://github.com/MarcoLucaPrevitera/GCPTerraform-Project
-cd restaurant-data-pipeline
+cd GCPTerraform-Project
 ```
 
 Create a virtual environment:
@@ -181,7 +152,7 @@ Next, configure Application Default Credentials (ADC), which allow tools such as
 gcloud auth application-default login
 ```
 
-### 5.3 Set the working project
+### 5.3 Set the Working Project
 Set the project used by the CLI:
 ```bash
 gcloud config set project <insert-project-id>
@@ -220,23 +191,6 @@ Verify the installation:
 terraform version
 ```
 
-### 6.2 Initialize the Terraform project
-
-Navigate to the Terraform configuration directory:
-
-```bash
-cd ~/restaurant-data-pipeline/terraform
-```
-
-Initialize the working directory:
-
-```bash
-terraform init
-```
-
-This command downloads the required providers and initializes the Terraform working environment. In this project, the Google provider (`hashicorp/google`) is used to interact with Google Cloud.
-
-
 ## 7. Terraform Infrastructure
 
 After succesful gcloud CLI installation and configuration, Terraform is ready to manage the GCP infrastructure.
@@ -270,7 +224,7 @@ The `storage.tf` file defines the storage bucket.
 
 ``` hcl
 resource "google_storage_bucket" "orders_bucket" {
-  name          = "restaurant-orders-data-73811378311"
+  name          = "restaurant-orders-data-738"
   location      = "EU"
   force_destroy = true
 
@@ -331,7 +285,7 @@ resource "google_bigquery_table" "orders" {
     },
     {
       name = "quantity"
-      type = "FLOAT"
+      type = "INTEGER"
       mode = "NULLABLE"
     },
     {
@@ -351,7 +305,22 @@ resource "google_bigquery_table" "orders" {
 The schema reflects the data types detected in the existing BigQuery
 table.
 
-## 8. Validate and Run Terraform Configuration
+## 8. Initialize and Run Terraform Configuration
+
+Navigate to the Terraform configuration directory:
+
+```bash
+cd terraform
+```
+
+Initialize the working directory:
+
+```bash
+terraform init
+```
+
+This command downloads the required providers and initializes the Terraform working environment. In this project, the Google provider (`hashicorp/google`) is used to interact with Google Cloud.
+
 
 Format the configuration files:
 
@@ -380,7 +349,7 @@ terraform apply
 
 ## 9. Uploading the Cleaned CSV to Google Cloud Storage
 
-++++++++++aggiungi creazione infrastuttura
+After creating the cloud infrastructure with Terraform, we can use the deployed resources to store the dataset in a Google Cloud Storage bucket, load it into BigQuery, and execute SQL queries for data analysis.
 
 ### 9.1 Loading the Dataset into the Bucket
 After executing the Python ETL script, the cleaned dataset is saved as `data/orders_clean.csv`.
@@ -388,7 +357,7 @@ After executing the Python ETL script, the cleaned dataset is saved as `data/ord
 Upload the file to the Google Cloud Storage bucket using the Google Cloud CLI:
 
 ```bash
-gcloud storage cp data/orders_clean.csv gs://restaurant-orders-data-73811378311/
+gcloud storage cp data/orders_clean.csv gs://restaurant-orders-data-738/
 ```
 
 This command uploads the cleaned CSV file to the previously created Cloud Storage bucket.
@@ -396,7 +365,7 @@ This command uploads the cleaned CSV file to the previously created Cloud Storag
 To verify the upload:
 
 ```bash
-gcloud storage ls gs://restaurant-orders-data-73811378311/
+gcloud storage ls gs://restaurant-orders-data-738/
 ```
 
 ### 9.2 Loading Data into BigQuery
@@ -410,7 +379,7 @@ bq load \
   --source_format=CSV \
   --skip_leading_rows=1 \
   restaurant_analytics.orders \
-  gs://restaurant-orders-data-73811378311/orders_clean.csv
+  gs://restaurant-orders-data-738/orders_clean.csv
 ```
 
 The command uses the following options:
@@ -424,8 +393,9 @@ The destination is the existing `orders` table in the `restaurant_analytics` dat
 
 ## 10. SQL Analytics
 
-SQL queries are maintained separately in the `sql/` directory and can be
-executed using the BigQuery Console.
+Once the cleaned dataset has been loaded into the BigQuery orders table, SQL queries can be used to analyze restaurant sales and extract meaningful insights.
+
+The analytical queries are stored as separate .sql files in the sql/ directory and can be executed either through the BigQuery Console or directly from the terminal using the BigQuery CLI (bq).
 
 ### 10.1 Sales Analysis by Product
 
@@ -463,7 +433,7 @@ ORDER BY
     date;
 ```
 
-This query provides daily order counts and revenue.
+This query provides daily order counts and daily revenue.
 
 ### 10.3 Top Selling Products
 
@@ -482,7 +452,7 @@ ORDER BY
     units_sold DESC;
 ```
 
-This query ranks products by sales volume.
+This query identifies the top selling products ranking them by sales volume.
 
 
 ## 11. Running SQL Queries with BigQuery CLI
@@ -497,7 +467,7 @@ bq query --use_legacy_sql=false < sql/sales_analysis.sql
 
 The `--use_legacy_sql=false` option enables **GoogleSQL (Standard SQL)**, which is used by the queries in this project.
 
-Query results are printed directly in the terminal. The queries analyze the data stored in the `restaurant_analytics.orders` BigQuery table. The result of the sales analysis query is shown:
+Query results are printed directly in the terminal. The queries analyze the data stored in the `restaurant_analytics.orders` BigQuery table. The result of the sales analysis by product query is shown:
 
 | Product | Units Sold | Revenue |
 |---|---:|---:|
