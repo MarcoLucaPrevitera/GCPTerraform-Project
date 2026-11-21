@@ -302,9 +302,6 @@ resource "google_bigquery_table" "orders" {
 }
 ```
 
-The schema reflects the data types detected in the existing BigQuery
-table.
-
 ## 8. Initialize and Run Terraform Configuration
 
 Navigate to the Terraform configuration directory:
