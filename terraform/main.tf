@@ -10,6 +10,6 @@ terraform {
 }
 
 provider "google" {
-  project = "sincere-cortex-515213-t6"
+  project = "<insert-project-id>"
   region  = "europe-west1"
 }

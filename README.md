@@ -40,9 +40,7 @@ restaurant-data-pipeline/
 │   ├── main.tf
 │   ├── storage.tf
 │   ├── bigquery.tf
-│   ├── table.tf
-│   ├── object.tf
-│   └── load.tf
+│   └── table.tf
 │
 ├── sql/
 │   ├── sales_analysis.sql
@@ -203,9 +201,7 @@ On Ubuntu (64-bit), download the official Terraform binary from HashiCorp.
 
 Firstly import the public gpg key:
 ```bash
-wget -O- https://apt.releases.hashicorp.com/gpg | \
-gpg --dearmor | \
-sudo tee /usr/share/keyrings/hashicorp-archive-keyring.gpg > /dev/null
+curl -fsSL https://apt.releases.hashicorp.com/gpg | sudo gpg --dearmor -o /usr/share/keyrings/hashicorp-archive-keyring.gpg
 ```
 
 Then add the HashiCorp repository to apt packets origin sources:
@@ -245,12 +241,6 @@ This command downloads the required providers and initializes the Terraform work
 
 After succesful gcloud CLI installation and configuration, Terraform is ready to manage the GCP infrastructure.
 
-Navigate to the Terraform directory:
-
-``` bash
-cd terraform
-```
-
 ### 7.1 Provider Configuration
 
 The `main.tf` file defines the Google provider and the required
@@ -269,7 +259,7 @@ terraform {
 }
 
 provider "google" {
-  project = "sincere-cortex-515213-t6"
+  project = "<insert-project-id>"
   region  = "europe-west1"
 }
 ```
@@ -447,7 +437,7 @@ SELECT
     SUM(quantity) AS total_quantity,
     ROUND(SUM(total_amount), 2) AS revenue
 FROM
-    `sincere-cortex-515213-t6.restaurant_analytics.orders`
+    `<insert-project-id>.restaurant_analytics.orders`
 GROUP BY
     product
 ORDER BY
@@ -466,7 +456,7 @@ SELECT
     COUNT(DISTINCT order_id) AS total_orders,
     ROUND(SUM(total_amount), 2) AS daily_revenue
 FROM
-    `sincere-cortex-515213-t6.restaurant_analytics.orders`
+    `<insert-project-id>.restaurant_analytics.orders`
 GROUP BY
     date
 ORDER BY
@@ -485,7 +475,7 @@ SELECT
     SUM(quantity) AS units_sold,
     ROUND(SUM(total_amount), 2) AS revenue
 FROM
-    `sincere-cortex-515213-t6.restaurant_analytics.orders`
+    `<insert-project-id>.restaurant_analytics.orders`
 GROUP BY
     product
 ORDER BY
