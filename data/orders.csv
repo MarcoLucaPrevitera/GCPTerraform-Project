@@ -1,13 +1,1041 @@
 order_id,date,product,quantity,unit_price
-1001,2026-11-01,Pizza,2,8.50
-1002,2026-11-01,Pasta,1,10.00
-1003,2026-11-02,Burger,3,9.00
-1004,2026-11-02,Pizza,1,8.50
-1005,2026-11-03,Pasta,2,10.00
-1006,2026-11-03,Salad,1,7.50
-1007,2026-11-04,Burger,2,9.00
-1008,2026-11-04,Pizza,3,8.50
-1008,2026-11-04,Pizza,3,8.50
-1009,2026-11-05,Pasta,,10.00
-1010,2026-11-05,Salad,-1,7.50
-1011,2026-11-05,Burger,1,9.00
+1,2026-10-14,Chocolate Cake,1.0,5.4
+2,2026-10-02,Margherita Pizza,3.0,12.0
+3,2026-10-12,Grilled Chicken Burger,3.0,13.5
+4,2026-10-14,Chocolate Cake,2.0,5.4
+5,2026-10-17,Margherita Pizza,3.0,12.0
+6,2026-10-19,Iced Coffee,3.0,3.0
+7,2026-10-15,Fresh Orange Juice,3.0,3.5
+8,2026-10-10,Spaghetti Bolognese,3.0,10.5
+9,2026-10-04,Grilled Chicken Burger,1.0,13.5
+10,2026-10-07,Chocolate Cake,2.0,5.4
+11,2026-10-10,Spaghetti Bolognese,2.0,10.5
+12,2026-10-08,Strawberry Milkshake,2.0,4.5
+13,2026-10-08,Iced Coffee,3.0,3.0
+14,2026-10-17,Grilled Chicken Burger,2.0,13.5
+15,2026-10-03,Iced Coffee,1.0,3.0
+16,2026-10-01,Chocolate Cake,3.0,5.4
+17,2026-10-14,Strawberry Milkshake,3.0,4.5
+18,2026-10-08,Iced Coffee,3.0,3.0
+19,2026-10-18,Spaghetti Bolognese,3.0,10.5
+20,2026-10-06,Spaghetti Bolognese,2.0,10.5
+21,2026-10-05,Grilled Chicken Burger,2.0,13.5
+22,2026-10-21,Spaghetti Bolognese,2.0,10.5
+23,2026-10-21,French Fries,2.0,4.0
+24,2026-10-21,Fresh Orange Juice,1.0,3.5
+25,2026-10-13,Chocolate Cake,3.0,5.4
+26,2026-10-18,Strawberry Milkshake,1.0,4.5
+27,2026-10-09,Chocolate Cake,1.0,5.4
+28,2026-10-04,Cheeseburger,1.0,11.0
+29,2026-10-08,Strawberry Milkshake,2.0,4.5
+30,2026-10-09,Grilled Chicken Burger,3.0,13.5
+31,2026-10-01,Strawberry Milkshake,1.0,4.5
+32,2026-10-06,Spaghetti Bolognese,1.0,10.5
+33,2026-10-02,Iced Coffee,1.0,3.0
+34,2026-10-21,Chocolate Cake,3.0,5.4
+35,2026-10-13,Iced Coffee,3.0,3.0
+36,2026-10-10,Chocolate Cake,1.0,5.4
+37,2026-10-02,Fresh Orange Juice,3.0,3.5
+38,2026-10-20,French Fries,1.0,4.0
+39,2026-10-21,Strawberry Milkshake,1.0,4.5
+40,2026-10-12,Chocolate Cake,2.0,5.4
+41,2026-10-10,Grilled Chicken Burger,1.0,13.5
+42,2026-10-06,Iced Coffee,3.0,3.0
+43,2026-10-09,Spaghetti Bolognese,1.0,10.5
+44,2026-10-10,Fresh Orange Juice,2.0,3.5
+44,2026-10-10,Fresh Orange Juice,2.0,3.5
+45,2026-10-14,Fresh Orange Juice,1.0,3.5
+46,2026-10-11,Spaghetti Bolognese,3.0,10.5
+47,2026-10-03,Iced Coffee,3.0,3.0
+48,2026-10-17,French Fries,3.0,4.0
+49,2026-10-01,Cheeseburger,1.0,11.0
+50,2026-10-02,Iced Coffee,1.0,3.0
+51,2026-10-16,Fresh Orange Juice,2.0,3.5
+52,2026-10-06,Strawberry Milkshake,1.0,4.5
+53,2026-10-03,Cheeseburger,3.0,11.0
+54,2026-10-17,French Fries,2.0,4.0
+55,2026-10-03,Caesar Salad,1.0,8.5
+56,2026-10-01,Margherita Pizza,1.0,12.0
+57,2026-10-17,Chocolate Cake,2.0,5.4
+58,2026-10-18,Fresh Orange Juice,1.0,3.5
+59,2026-10-16,Spaghetti Bolognese,2.0,10.5
+60,2026-10-13,Iced Coffee,2.0,3.0
+61,2026-10-02,Chocolate Cake,2.0,5.4
+62,2026-10-17,Strawberry Milkshake,2.0,4.5
+63,2026-10-03,Cheeseburger,3.0,11.0
+64,2026-10-19,Cheeseburger,2.0,11.0
+65,2026-10-15,Cheeseburger,2.0,11.0
+66,2026-10-16,Spaghetti Bolognese,3.0,10.5
+67,2026-10-17,Caesar Salad,1.0,8.5
+67,2026-10-17,Caesar Salad,1.0,8.5
+68,2026-10-07,Iced Coffee,3.0,3.0
+69,2026-10-04,Iced Coffee,2.0,3.0
+70,2026-10-02,Margherita Pizza,3.0,12.0
+71,2026-10-04,Spaghetti Bolognese,3.0,10.5
+72,2026-10-08,French Fries,1.0,4.0
+73,2026-10-05,Iced Coffee,1.0,3.0
+74,2026-10-02,Margherita Pizza,2.0,12.0
+75,2026-10-06,Spaghetti Bolognese,2.0,10.5
+76,2026-10-06,Strawberry Milkshake,1.0,4.5
+77,2026-10-17,Chocolate Cake,2.0,5.4
+78,2026-10-13,Iced Coffee,3.0,3.0
+79,2026-10-08,Caesar Salad,3.0,8.5
+80,2026-10-14,Strawberry Milkshake,3.0,4.5
+81,2026-10-06,Spaghetti Bolognese,1.0,10.5
+82,2026-10-08,Chocolate Cake,3.0,5.4
+83,2026-10-19,Iced Coffee,2.0,3.0
+84,2026-10-10,Chocolate Cake,1.0,5.4
+85,2026-10-10,Strawberry Milkshake,2.0,4.5
+86,2026-10-07,Margherita Pizza,1.0,12.0
+87,2026-10-09,Grilled Chicken Burger,1.0,13.5
+88,2026-10-06,Fresh Orange Juice,3.0,3.5
+89,2026-10-21,French Fries,3.0,4.0
+90,2026-10-02,Fresh Orange Juice,2.0,3.5
+91,2026-10-12,French Fries,3.0,4.0
+92,2026-10-02,Cheeseburger,3.0,11.0
+93,2026-10-11,Spaghetti Bolognese,1.0,10.5
+94,2026-10-08,Spaghetti Bolognese,2.0,10.5
+95,2026-10-11,Fresh Orange Juice,2.0,3.5
+96,2026-10-14,Iced Coffee,1.0,3.0
+97,2026-10-19,Spaghetti Bolognese,2.0,10.5
+98,2026-10-07,Chocolate Cake,3.0,5.4
+99,2026-10-03,Cheeseburger,2.0,11.0
+100,2026-10-01,Chocolate Cake,2.0,5.4
+101,2026-10-15,French Fries,1.0,4.0
+102,2026-10-04,Strawberry Milkshake,3.0,4.5
+103,2026-10-19,Iced Coffee,2.0,3.0
+104,2026-10-12,Fresh Orange Juice,3.0,3.5
+105,2026-10-07,Cheeseburger,2.0,11.0
+106,2026-10-04,Caesar Salad,3.0,8.5
+107,2026-10-17,Spaghetti Bolognese,3.0,10.5
+108,2026-10-14,Chocolate Cake,1.0,5.4
+109,2026-10-16,Cheeseburger,1.0,11.0
+110,2026-10-03,Iced Coffee,1.0,3.0
+111,2026-10-12,French Fries,3.0,4.0
+112,2026-10-13,Caesar Salad,3.0,8.5
+113,2026-10-17,Iced Coffee,3.0,3.0
+114,2026-10-13,Grilled Chicken Burger,2.0,13.5
+115,2026-10-07,Spaghetti Bolognese,3.0,10.5
+116,2026-10-08,Strawberry Milkshake,1.0,4.5
+117,2026-10-04,Caesar Salad,1.0,8.5
+118,2026-10-21,Spaghetti Bolognese,1.0,10.5
+119,2026-10-17,Margherita Pizza,2.0,12.0
+120,2026-10-15,French Fries,3.0,4.0
+121,2026-10-19,Cheeseburger,1.0,11.0
+122,2026-10-03,Strawberry Milkshake,2.0,4.5
+123,2026-10-07,Strawberry Milkshake,2.0,4.5
+124,2026-10-04,Strawberry Milkshake,2.0,4.5
+125,2026-10-05,Chocolate Cake,3.0,5.4
+126,2026-10-21,Spaghetti Bolognese,3.0,10.5
+127,2026-10-05,Cheeseburger,1.0,11.0
+128,2026-10-04,Chocolate Cake,2.0,5.4
+129,2026-10-11,Strawberry Milkshake,1.0,4.5
+130,2026-10-09,Cheeseburger,1.0,11.0
+131,2026-10-06,Margherita Pizza,1.0,12.0
+132,2026-10-18,French Fries,3.0,4.0
+133,2026-10-15,Chocolate Cake,1.0,5.4
+134,2026-10-04,Fresh Orange Juice,3.0,3.5
+135,2026-10-18,Strawberry Milkshake,1.0,4.5
+136,2026-10-06,Grilled Chicken Burger,1.0,13.5
+137,2026-10-15,Strawberry Milkshake,2.0,4.5
+138,2026-10-18,Grilled Chicken Burger,1.0,13.5
+139,2026-10-09,Cheeseburger,3.0,11.0
+140,2026-10-19,Spaghetti Bolognese,2.0,10.5
+141,2026-10-04,Fresh Orange Juice,3.0,3.5
+142,2026-10-10,Grilled Chicken Burger,3.0,13.5
+143,2026-10-08,Caesar Salad,2.0,8.5
+144,2026-10-03,Strawberry Milkshake,3.0,4.5
+145,2026-10-02,Iced Coffee,1.0,3.0
+146,2026-10-21,Chocolate Cake,2.0,5.4
+147,2026-10-15,Margherita Pizza,3.0,12.0
+148,2026-10-13,Spaghetti Bolognese,3.0,10.5
+149,2026-10-19,Grilled Chicken Burger,3.0,13.5
+150,2026-10-02,Spaghetti Bolognese,3.0,10.5
+151,2026-10-11,Cheeseburger,1.0,11.0
+152,2026-10-06,Chocolate Cake,1.0,5.4
+153,2026-10-11,Grilled Chicken Burger,1.0,13.5
+154,2026-10-18,Cheeseburger,3.0,11.0
+155,2026-10-14,Spaghetti Bolognese,3.0,10.5
+155,2026-10-14,Spaghetti Bolognese,3.0,10.5
+156,2026-10-04,Caesar Salad,2.0,8.5
+157,2026-10-02,Spaghetti Bolognese,3.0,10.5
+158,2026-10-01,French Fries,1.0,4.0
+159,2026-10-18,Cheeseburger,2.0,11.0
+160,2026-10-17,Iced Coffee,3.0,3.0
+161,2026-10-16,Iced Coffee,1.0,3.0
+162,2026-10-10,Chocolate Cake,2.0,5.4
+163,2026-10-19,Iced Coffee,3.0,3.0
+163,2026-10-19,Iced Coffee,3.0,3.0
+164,2026-10-11,Chocolate Cake,3.0,5.4
+165,2026-10-05,Strawberry Milkshake,2.0,4.5
+166,2026-10-09,Strawberry Milkshake,2.0,4.5
+167,2026-10-06,Margherita Pizza,1.0,12.0
+168,2026-10-14,Iced Coffee,3.0,3.0
+169,2026-10-15,Grilled Chicken Burger,1.0,13.5
+170,2026-10-16,Chocolate Cake,2.0,5.4
+171,2026-10-11,Chocolate Cake,3.0,5.4
+172,2026-10-06,Cheeseburger,2.0,11.0
+173,2026-10-05,French Fries,2.0,4.0
+174,2026-10-01,Spaghetti Bolognese,2.0,10.5
+175,2026-10-06,Iced Coffee,1.0,3.0
+176,2026-10-06,Strawberry Milkshake,1.0,4.5
+177,2026-10-12,Spaghetti Bolognese,1.0,10.5
+178,2026-10-09,Fresh Orange Juice,2.0,3.5
+179,2026-10-12,Chocolate Cake,2.0,5.4
+180,2026-10-18,Cheeseburger,3.0,11.0
+181,2026-10-12,Margherita Pizza,2.0,12.0
+182,2026-10-14,Fresh Orange Juice,1.0,3.5
+183,2026-10-17,Cheeseburger,3.0,11.0
+184,2026-10-11,Fresh Orange Juice,1.0,3.5
+185,2026-10-11,Grilled Chicken Burger,3.0,13.5
+186,2026-10-20,Chocolate Cake,1.0,5.4
+187,2026-10-13,Chocolate Cake,2.0,5.4
+188,2026-10-20,Margherita Pizza,3.0,12.0
+189,2026-10-15,Cheeseburger,3.0,11.0
+190,2026-10-20,Strawberry Milkshake,1.0,4.5
+191,2026-10-08,Cheeseburger,1.0,11.0
+192,2026-10-08,Grilled Chicken Burger,1.0,13.5
+193,2026-10-18,Chocolate Cake,3.0,5.4
+194,2026-10-04,Cheeseburger,3.0,11.0
+194,2026-10-04,Cheeseburger,3.0,11.0
+195,2026-10-13,Caesar Salad,2.0,8.5
+196,2026-10-03,Cheeseburger,2.0,11.0
+197,2026-10-20,Caesar Salad,1.0,8.5
+198,2026-10-10,Iced Coffee,1.0,3.0
+199,2026-10-06,Chocolate Cake,1.0,5.4
+200,2026-10-04,Caesar Salad,1.0,8.5
+201,2026-10-12,Strawberry Milkshake,3.0,4.5
+202,2026-10-03,Cheeseburger,1.0,11.0
+203,2026-10-16,Grilled Chicken Burger,3.0,13.5
+204,2026-10-07,Spaghetti Bolognese,2.0,10.5
+205,2026-10-16,Chocolate Cake,1.0,5.4
+206,2026-10-01,Iced Coffee,3.0,3.0
+207,2026-10-06,French Fries,3.0,4.0
+208,2026-10-16,Caesar Salad,1.0,8.5
+209,2026-10-15,Iced Coffee,3.0,3.0
+210,2026-10-10,Chocolate Cake,1.0,5.4
+211,2026-10-16,Spaghetti Bolognese,3.0,10.5
+212,2026-10-05,Chocolate Cake,2.0,5.4
+213,2026-10-15,Margherita Pizza,1.0,12.0
+214,2026-10-02,Caesar Salad,2.0,8.5
+215,2026-10-21,Strawberry Milkshake,3.0,4.5
+216,2026-10-04,Cheeseburger,1.0,11.0
+217,2026-10-13,Chocolate Cake,1.0,5.4
+218,2026-10-07,Chocolate Cake,2.0,5.4
+219,2026-10-13,Margherita Pizza,3.0,12.0
+220,2026-10-13,Caesar Salad,3.0,8.5
+221,2026-10-17,Strawberry Milkshake,2.0,4.5
+222,2026-10-02,Fresh Orange Juice,1.0,3.5
+223,2026-10-12,Cheeseburger,1.0,11.0
+224,2026-10-14,French Fries,3.0,4.0
+225,2026-10-12,Grilled Chicken Burger,1.0,13.5
+226,2026-10-17,Spaghetti Bolognese,3.0,10.5
+227,2026-10-06,Fresh Orange Juice,1.0,3.5
+228,2026-10-13,Caesar Salad,2.0,8.5
+229,2026-10-17,French Fries,2.0,4.0
+230,2026-10-13,Fresh Orange Juice,1.0,3.5
+231,2026-10-05,Cheeseburger,3.0,11.0
+232,2026-10-19,Spaghetti Bolognese,2.0,10.5
+233,2026-10-02,Iced Coffee,3.0,3.0
+234,2026-10-05,Margherita Pizza,2.0,12.0
+235,2026-10-11,French Fries,3.0,4.0
+236,2026-10-08,Grilled Chicken Burger,2.0,13.5
+237,2026-10-10,Margherita Pizza,1.0,12.0
+238,2026-10-20,Iced Coffee,3.0,3.0
+239,2026-10-19,Chocolate Cake,2.0,5.4
+240,2026-10-21,Margherita Pizza,1.0,12.0
+241,2026-10-13,Strawberry Milkshake,1.0,4.5
+242,2026-10-21,Spaghetti Bolognese,1.0,10.5
+243,2026-10-15,French Fries,2.0,4.0
+244,2026-10-18,Strawberry Milkshake,1.0,4.5
+245,2026-10-09,Caesar Salad,3.0,8.5
+246,2026-10-17,Fresh Orange Juice,1.0,3.5
+247,2026-10-20,Strawberry Milkshake,1.0,4.5
+248,2026-10-13,Grilled Chicken Burger,3.0,13.5
+249,2026-10-18,Caesar Salad,2.0,8.5
+250,2026-10-07,Fresh Orange Juice,2.0,3.5
+251,2026-10-11,Iced Coffee,3.0,3.0
+252,2026-10-05,Margherita Pizza,2.0,12.0
+253,2026-10-16,Margherita Pizza,2.0,12.0
+254,2026-10-12,Cheeseburger,2.0,11.0
+255,2026-10-10,French Fries,3.0,4.0
+256,2026-10-05,Caesar Salad,3.0,8.5
+257,2026-10-15,Caesar Salad,1.0,8.5
+258,2026-10-17,Caesar Salad,3.0,8.5
+259,2026-10-17,French Fries,1.0,4.0
+260,2026-10-06,Fresh Orange Juice,3.0,3.5
+261,2026-10-01,Chocolate Cake,3.0,5.4
+262,2026-10-06,Fresh Orange Juice,1.0,3.5
+263,2026-10-12,Strawberry Milkshake,1.0,4.5
+264,2026-10-09,Fresh Orange Juice,1.0,3.5
+265,2026-10-21,Iced Coffee,1.0,3.0
+266,2026-10-19,French Fries,1.0,4.0
+267,2026-10-14,Fresh Orange Juice,3.0,3.5
+268,2026-10-12,Cheeseburger,3.0,11.0
+269,2026-10-11,French Fries,2.0,4.0
+270,2026-10-14,Strawberry Milkshake,2.0,4.5
+271,2026-10-01,Cheeseburger,1.0,11.0
+272,2026-10-02,Strawberry Milkshake,2.0,4.5
+273,2026-10-19,Strawberry Milkshake,1.0,4.5
+274,2026-10-07,Grilled Chicken Burger,1.0,13.5
+275,2026-10-08,Grilled Chicken Burger,3.0,13.5
+276,2026-10-19,Spaghetti Bolognese,1.0,10.5
+277,2026-10-18,Grilled Chicken Burger,1.0,13.5
+278,2026-10-15,Cheeseburger,1.0,11.0
+279,2026-10-18,Strawberry Milkshake,1.0,4.5
+280,2026-10-11,Chocolate Cake,1.0,5.4
+281,2026-10-15,Iced Coffee,1.0,3.0
+282,2026-10-17,Spaghetti Bolognese,3.0,10.5
+283,2026-10-17,Chocolate Cake,2.0,5.4
+284,2026-10-03,French Fries,2.0,4.0
+285,2026-10-09,Chocolate Cake,2.0,5.4
+286,2026-10-13,French Fries,3.0,4.0
+287,2026-10-01,Grilled Chicken Burger,3.0,13.5
+288,2026-10-07,Chocolate Cake,1.0,5.4
+289,2026-10-19,French Fries,3.0,4.0
+290,2026-10-15,Grilled Chicken Burger,3.0,13.5
+291,2026-10-05,Margherita Pizza,3.0,12.0
+292,2026-10-05,Caesar Salad,2.0,8.5
+293,2026-10-04,Margherita Pizza,3.0,12.0
+294,2026-10-16,Chocolate Cake,2.0,5.4
+295,2026-10-20,Iced Coffee,2.0,3.0
+296,2026-10-09,Caesar Salad,2.0,8.5
+297,2026-10-04,Grilled Chicken Burger,1.0,13.5
+298,2026-10-10,Strawberry Milkshake,1.0,4.5
+299,2026-10-17,Fresh Orange Juice,2.0,3.5
+300,2026-10-13,Spaghetti Bolognese,2.0,10.5
+301,2026-10-21,Margherita Pizza,1.0,12.0
+302,2026-10-06,French Fries,2.0,4.0
+303,2026-10-20,Fresh Orange Juice,2.0,3.5
+304,2026-10-08,Caesar Salad,1.0,8.5
+305,2026-10-01,Margherita Pizza,3.0,12.0
+306,2026-10-07,Grilled Chicken Burger,1.0,13.5
+307,2026-10-18,Iced Coffee,3.0,3.0
+308,2026-10-03,Strawberry Milkshake,3.0,4.5
+309,2026-10-12,Cheeseburger,2.0,11.0
+310,2026-10-10,Cheeseburger,3.0,11.0
+311,2026-10-18,French Fries,2.0,4.0
+312,2026-10-21,French Fries,1.0,4.0
+313,2026-10-20,Caesar Salad,3.0,8.5
+314,2026-10-06,Strawberry Milkshake,3.0,4.5
+315,2026-10-01,Margherita Pizza,3.0,12.0
+316,2026-10-01,Strawberry Milkshake,1.0,4.5
+317,2026-10-11,Strawberry Milkshake,3.0,4.5
+318,2026-10-07,Cheeseburger,3.0,11.0
+319,2026-10-15,Iced Coffee,2.0,3.0
+320,2026-10-18,Strawberry Milkshake,2.0,4.5
+321,2026-10-02,Iced Coffee,3.0,3.0
+322,2026-10-13,Fresh Orange Juice,3.0,3.5
+323,2026-10-09,French Fries,1.0,4.0
+324,2026-10-15,Margherita Pizza,1.0,12.0
+325,2026-10-10,Cheeseburger,2.0,11.0
+326,2026-10-13,Fresh Orange Juice,2.0,3.5
+327,2026-10-17,French Fries,3.0,4.0
+328,2026-10-20,Chocolate Cake,3.0,5.4
+329,2026-10-08,Iced Coffee,3.0,3.0
+330,2026-10-06,Spaghetti Bolognese,3.0,10.5
+331,2026-10-20,Strawberry Milkshake,2.0,4.5
+332,2026-10-17,Strawberry Milkshake,1.0,4.5
+333,2026-10-07,Cheeseburger,1.0,11.0
+334,2026-10-10,Chocolate Cake,3.0,5.4
+335,2026-10-14,Grilled Chicken Burger,3.0,13.5
+336,2026-10-08,Spaghetti Bolognese,1.0,10.5
+337,2026-10-15,Spaghetti Bolognese,1.0,10.5
+338,2026-10-09,Margherita Pizza,1.0,12.0
+339,2026-10-19,Cheeseburger,1.0,11.0
+340,2026-10-13,Margherita Pizza,3.0,12.0
+341,2026-10-02,Strawberry Milkshake,2.0,4.5
+342,2026-10-12,Fresh Orange Juice,2.0,3.5
+343,2026-10-07,Cheeseburger,1.0,11.0
+344,2026-10-01,Iced Coffee,1.0,3.0
+345,2026-10-12,Strawberry Milkshake,1.0,4.5
+346,2026-10-04,Margherita Pizza,2.0,12.0
+347,2026-10-15,Cheeseburger,1.0,11.0
+348,2026-10-14,Chocolate Cake,3.0,5.4
+349,2026-10-13,Caesar Salad,1.0,8.5
+350,2026-10-14,Iced Coffee,3.0,3.0
+350,2026-10-14,Iced Coffee,3.0,3.0
+351,2026-10-19,Strawberry Milkshake,1.0,4.5
+352,2026-10-05,Caesar Salad,1.0,8.5
+353,2026-10-11,Fresh Orange Juice,3.0,3.5
+354,2026-10-15,Fresh Orange Juice,1.0,3.5
+355,2026-10-02,Fresh Orange Juice,2.0,3.5
+356,2026-10-07,Margherita Pizza,2.0,12.0
+357,2026-10-03,Cheeseburger,2.0,11.0
+358,2026-10-15,Margherita Pizza,3.0,12.0
+359,2026-10-20,Cheeseburger,2.0,11.0
+360,2026-10-03,Chocolate Cake,3.0,5.4
+361,2026-10-14,Fresh Orange Juice,3.0,3.5
+362,2026-10-17,Spaghetti Bolognese,2.0,10.5
+362,2026-10-17,Spaghetti Bolognese,2.0,10.5
+363,2026-10-15,Margherita Pizza,2.0,12.0
+364,2026-10-10,French Fries,2.0,4.0
+365,2026-10-06,Chocolate Cake,3.0,5.4
+366,2026-10-13,Fresh Orange Juice,3.0,3.5
+367,2026-10-16,Spaghetti Bolognese,1.0,10.5
+368,2026-10-11,Cheeseburger,1.0,11.0
+369,2026-10-17,Margherita Pizza,2.0,12.0
+370,2026-10-07,Iced Coffee,3.0,3.0
+371,2026-10-10,French Fries,3.0,4.0
+372,2026-10-01,Strawberry Milkshake,3.0,4.5
+373,2026-10-14,Strawberry Milkshake,2.0,4.5
+374,2026-10-10,Caesar Salad,2.0,8.5
+375,2026-10-05,Chocolate Cake,1.0,5.4
+376,2026-10-15,Grilled Chicken Burger,2.0,13.5
+377,2026-10-19,Chocolate Cake,2.0,5.4
+378,2026-10-19,Margherita Pizza,3.0,12.0
+379,2026-10-12,Iced Coffee,1.0,3.0
+380,2026-10-05,Chocolate Cake,3.0,5.4
+381,2026-10-01,Strawberry Milkshake,1.0,4.5
+382,2026-10-03,Cheeseburger,1.0,11.0
+383,2026-10-12,Iced Coffee,3.0,3.0
+384,2026-10-18,Cheeseburger,2.0,11.0
+385,2026-10-03,Spaghetti Bolognese,2.0,10.5
+386,2026-10-12,French Fries,3.0,4.0
+387,2026-10-08,Margherita Pizza,2.0,12.0
+388,2026-10-11,Chocolate Cake,3.0,5.4
+389,2026-10-21,Fresh Orange Juice,2.0,3.5
+390,2026-10-01,Grilled Chicken Burger,1.0,13.5
+391,2026-10-07,Fresh Orange Juice,3.0,3.5
+392,2026-10-09,Strawberry Milkshake,1.0,4.5
+393,2026-10-20,Margherita Pizza,3.0,12.0
+394,2026-10-18,Spaghetti Bolognese,1.0,10.5
+395,2026-10-04,Caesar Salad,3.0,8.5
+396,2026-10-09,Cheeseburger,2.0,11.0
+397,2026-10-01,Grilled Chicken Burger,1.0,13.5
+398,2026-10-04,Caesar Salad,2.0,8.5
+399,2026-10-13,Cheeseburger,3.0,11.0
+400,2026-10-16,Grilled Chicken Burger,3.0,13.5
+401,2026-10-02,Fresh Orange Juice,2.0,3.5
+402,2026-10-06,Grilled Chicken Burger,2.0,13.5
+403,2026-10-19,French Fries,2.0,4.0
+404,2026-10-02,Spaghetti Bolognese,2.0,10.5
+405,2026-10-01,Fresh Orange Juice,2.0,3.5
+406,2026-10-21,Grilled Chicken Burger,3.0,13.5
+407,2026-10-02,French Fries,3.0,4.0
+408,2026-10-09,Caesar Salad,3.0,8.5
+409,2026-10-19,Caesar Salad,3.0,8.5
+410,2026-10-12,Fresh Orange Juice,1.0,3.5
+411,2026-10-14,Cheeseburger,1.0,11.0
+412,2026-10-11,Chocolate Cake,3.0,5.4
+413,2026-10-16,Cheeseburger,1.0,11.0
+414,2026-10-08,Cheeseburger,2.0,11.0
+415,2026-10-17,Grilled Chicken Burger,1.0,13.5
+416,2026-10-06,Strawberry Milkshake,1.0,4.5
+417,2026-10-15,Strawberry Milkshake,2.0,4.5
+418,2026-10-06,French Fries,1.0,4.0
+419,2026-10-21,French Fries,2.0,4.0
+420,2026-10-03,Grilled Chicken Burger,3.0,13.5
+421,2026-10-21,Strawberry Milkshake,2.0,4.5
+422,2026-10-16,Spaghetti Bolognese,3.0,10.5
+423,2026-10-14,Strawberry Milkshake,1.0,4.5
+424,2026-10-04,Cheeseburger,2.0,11.0
+425,2026-10-05,Iced Coffee,2.0,3.0
+426,2026-10-15,Cheeseburger,1.0,11.0
+427,2026-10-14,Cheeseburger,3.0,11.0
+428,2026-10-01,French Fries,1.0,4.0
+429,2026-10-16,Strawberry Milkshake,2.0,4.5
+430,2026-10-14,Margherita Pizza,1.0,12.0
+431,2026-10-11,Margherita Pizza,2.0,12.0
+432,2026-10-10,Strawberry Milkshake,3.0,4.5
+433,2026-10-20,Margherita Pizza,2.0,12.0
+434,2026-10-09,Spaghetti Bolognese,3.0,10.5
+435,2026-10-16,Cheeseburger,3.0,11.0
+436,2026-10-07,Cheeseburger,1.0,11.0
+437,2026-10-16,Margherita Pizza,1.0,12.0
+438,2026-10-20,Spaghetti Bolognese,1.0,10.5
+439,2026-10-20,Iced Coffee,3.0,3.0
+440,2026-10-16,French Fries,2.0,4.0
+441,2026-10-01,Caesar Salad,1.0,8.5
+441,2026-10-01,Caesar Salad,1.0,8.5
+442,2026-10-14,Cheeseburger,3.0,11.0
+443,2026-10-13,Iced Coffee,3.0,3.0
+444,2026-10-12,Spaghetti Bolognese,1.0,10.5
+445,2026-10-17,Spaghetti Bolognese,1.0,10.5
+446,2026-10-16,Iced Coffee,3.0,3.0
+447,2026-10-15,French Fries,3.0,4.0
+448,2026-10-05,Iced Coffee,1.0,3.0
+449,2026-10-10,Spaghetti Bolognese,3.0,10.5
+450,2026-10-13,Cheeseburger,2.0,11.0
+451,2026-10-07,Cheeseburger,3.0,11.0
+452,2026-10-06,Cheeseburger,2.0,11.0
+453,2026-10-18,Margherita Pizza,3.0,12.0
+454,2026-10-08,Spaghetti Bolognese,2.0,10.5
+455,2026-10-07,Iced Coffee,1.0,3.0
+456,2026-10-14,Cheeseburger,1.0,11.0
+457,2026-10-03,Caesar Salad,3.0,8.5
+458,2026-10-10,Chocolate Cake,2.0,5.4
+459,2026-10-03,Caesar Salad,3.0,8.5
+460,2026-10-06,Caesar Salad,3.0,8.5
+461,2026-10-10,Grilled Chicken Burger,2.0,13.5
+462,2026-10-11,Fresh Orange Juice,2.0,3.5
+463,2026-10-02,Cheeseburger,3.0,11.0
+464,2026-10-20,Chocolate Cake,1.0,5.4
+465,2026-10-08,French Fries,3.0,4.0
+465,2026-10-08,French Fries,3.0,4.0
+466,2026-10-17,Caesar Salad,1.0,8.5
+467,2026-10-11,Caesar Salad,2.0,8.5
+468,2026-10-03,Spaghetti Bolognese,3.0,10.5
+469,2026-10-01,Margherita Pizza,3.0,12.0
+470,2026-10-03,Strawberry Milkshake,1.0,4.5
+471,2026-10-07,Caesar Salad,2.0,8.5
+472,2026-10-02,Margherita Pizza,2.0,12.0
+473,2026-10-05,Cheeseburger,3.0,11.0
+474,2026-10-08,Fresh Orange Juice,1.0,3.5
+475,2026-10-20,Margherita Pizza,1.0,12.0
+476,2026-10-06,Cheeseburger,3.0,11.0
+477,2026-10-17,Iced Coffee,3.0,3.0
+478,2026-10-08,Chocolate Cake,3.0,5.4
+479,2026-10-08,Caesar Salad,2.0,8.5
+480,2026-10-13,Iced Coffee,2.0,3.0
+481,2026-10-09,Cheeseburger,2.0,11.0
+482,2026-10-20,Iced Coffee,2.0,3.0
+483,2026-10-15,Cheeseburger,1.0,11.0
+484,2026-10-21,Margherita Pizza,2.0,12.0
+485,2026-10-19,Grilled Chicken Burger,1.0,13.5
+486,2026-10-08,Grilled Chicken Burger,3.0,13.5
+487,2026-10-03,Margherita Pizza,1.0,12.0
+488,2026-10-06,Iced Coffee,3.0,3.0
+489,2026-10-03,Grilled Chicken Burger,2.0,13.5
+490,2026-10-01,Cheeseburger,2.0,11.0
+491,2026-10-07,Fresh Orange Juice,3.0,3.5
+492,2026-10-06,Strawberry Milkshake,3.0,4.5
+493,2026-10-04,French Fries,2.0,4.0
+494,2026-10-21,Caesar Salad,1.0,8.5
+495,2026-10-07,Iced Coffee,2.0,3.0
+496,2026-10-11,Chocolate Cake,2.0,5.4
+496,2026-10-11,Chocolate Cake,2.0,5.4
+497,2026-10-19,Margherita Pizza,2.0,12.0
+498,2026-10-13,French Fries,3.0,4.0
+499,2026-10-04,Cheeseburger,2.0,11.0
+500,2026-10-12,Spaghetti Bolognese,1.0,10.5
+501,2026-10-05,Margherita Pizza,3.0,12.0
+502,2026-10-12,Grilled Chicken Burger,3.0,13.5
+503,2026-10-11,Spaghetti Bolognese,1.0,10.5
+504,2026-10-03,Spaghetti Bolognese,1.0,10.5
+505,2026-10-12,French Fries,3.0,4.0
+506,2026-10-19,Iced Coffee,1.0,3.0
+507,2026-10-02,Caesar Salad,2.0,8.5
+508,2026-10-12,Spaghetti Bolognese,3.0,10.5
+509,2026-10-15,Caesar Salad,1.0,8.5
+510,2026-10-10,Cheeseburger,1.0,11.0
+511,2026-10-16,French Fries,1.0,4.0
+512,2026-10-19,Caesar Salad,1.0,8.5
+513,2026-10-17,Grilled Chicken Burger,3.0,13.5
+514,2026-10-17,Grilled Chicken Burger,2.0,13.5
+515,2026-10-02,Fresh Orange Juice,1.0,3.5
+516,2026-10-18,Cheeseburger,1.0,11.0
+517,2026-10-16,Spaghetti Bolognese,1.0,10.5
+518,2026-10-02,Cheeseburger,3.0,11.0
+519,2026-10-03,Chocolate Cake,2.0,5.4
+520,2026-10-08,Fresh Orange Juice,2.0,3.5
+521,2026-10-16,Strawberry Milkshake,3.0,4.5
+522,2026-10-11,Margherita Pizza,1.0,12.0
+523,2026-10-17,Caesar Salad,2.0,8.5
+524,2026-10-18,Chocolate Cake,2.0,5.4
+525,2026-10-11,Fresh Orange Juice,1.0,3.5
+526,2026-10-13,Iced Coffee,1.0,3.0
+527,2026-10-05,Spaghetti Bolognese,2.0,10.5
+528,2026-10-11,Strawberry Milkshake,3.0,4.5
+529,2026-10-07,Spaghetti Bolognese,2.0,10.5
+530,2026-10-10,Iced Coffee,3.0,3.0
+531,2026-10-16,Chocolate Cake,1.0,5.4
+532,2026-10-17,Chocolate Cake,2.0,5.4
+533,2026-10-10,Margherita Pizza,2.0,12.0
+534,2026-10-02,Strawberry Milkshake,1.0,4.5
+535,2026-10-06,Fresh Orange Juice,3.0,3.5
+536,2026-10-02,French Fries,2.0,4.0
+537,2026-10-07,Grilled Chicken Burger,3.0,13.5
+538,2026-10-01,Margherita Pizza,1.0,12.0
+539,2026-10-21,Caesar Salad,1.0,8.5
+540,2026-10-08,Spaghetti Bolognese,1.0,10.5
+541,2026-10-16,Chocolate Cake,3.0,5.4
+542,2026-10-18,Chocolate Cake,3.0,5.4
+543,2026-10-08,Fresh Orange Juice,2.0,3.5
+544,2026-10-14,Cheeseburger,1.0,11.0
+545,2026-10-05,French Fries,3.0,4.0
+546,2026-10-06,Iced Coffee,2.0,3.0
+546,2026-10-06,Iced Coffee,2.0,3.0
+547,2026-10-01,Strawberry Milkshake,3.0,4.5
+548,2026-10-10,Grilled Chicken Burger,3.0,13.5
+549,2026-10-18,Cheeseburger,1.0,11.0
+550,2026-10-06,Spaghetti Bolognese,1.0,10.5
+551,2026-10-06,Iced Coffee,1.0,3.0
+552,2026-10-15,Grilled Chicken Burger,1.0,13.5
+553,2026-10-02,Chocolate Cake,1.0,5.4
+554,2026-10-11,Cheeseburger,2.0,11.0
+555,2026-10-19,Caesar Salad,3.0,8.5
+556,2026-10-18,Caesar Salad,2.0,8.5
+557,2026-10-20,Chocolate Cake,2.0,5.4
+558,2026-10-21,French Fries,3.0,4.0
+559,2026-10-15,Fresh Orange Juice,1.0,3.5
+560,2026-10-09,Margherita Pizza,3.0,12.0
+561,2026-10-02,Margherita Pizza,2.0,12.0
+562,2026-10-07,Caesar Salad,1.0,8.5
+563,2026-10-07,Chocolate Cake,2.0,5.4
+564,2026-10-18,Chocolate Cake,3.0,5.4
+565,2026-10-11,French Fries,1.0,4.0
+566,2026-10-20,French Fries,3.0,4.0
+567,2026-10-21,French Fries,3.0,4.0
+568,2026-10-20,Margherita Pizza,2.0,12.0
+569,2026-10-06,Fresh Orange Juice,3.0,3.5
+570,2026-10-17,Spaghetti Bolognese,1.0,10.5
+571,2026-10-17,Strawberry Milkshake,2.0,4.5
+572,2026-10-06,Cheeseburger,3.0,11.0
+573,2026-10-12,Grilled Chicken Burger,1.0,13.5
+574,2026-10-03,Iced Coffee,1.0,3.0
+575,2026-10-15,Spaghetti Bolognese,2.0,10.5
+576,2026-10-18,Iced Coffee,3.0,3.0
+577,2026-10-03,Margherita Pizza,3.0,12.0
+578,2026-10-10,French Fries,2.0,4.0
+579,2026-10-19,Strawberry Milkshake,1.0,4.5
+580,2026-10-14,Caesar Salad,3.0,8.5
+581,2026-10-08,Iced Coffee,3.0,3.0
+582,2026-10-10,French Fries,2.0,4.0
+583,2026-10-14,Caesar Salad,2.0,8.5
+584,2026-10-02,Iced Coffee,1.0,3.0
+585,2026-10-05,Strawberry Milkshake,3.0,4.5
+586,2026-10-16,Strawberry Milkshake,2.0,4.5
+587,2026-10-07,Margherita Pizza,2.0,12.0
+588,2026-10-10,Chocolate Cake,2.0,5.4
+589,2026-10-20,Spaghetti Bolognese,2.0,10.5
+590,2026-10-06,Chocolate Cake,2.0,5.4
+591,2026-10-18,Chocolate Cake,2.0,5.4
+592,2026-10-02,Spaghetti Bolognese,1.0,10.5
+593,2026-10-14,Chocolate Cake,2.0,5.4
+594,2026-10-06,French Fries,2.0,4.0
+595,2026-10-16,Grilled Chicken Burger,1.0,13.5
+596,2026-10-19,Margherita Pizza,1.0,12.0
+597,2026-10-05,Spaghetti Bolognese,2.0,10.5
+598,2026-10-17,Fresh Orange Juice,3.0,3.5
+599,2026-10-06,Grilled Chicken Burger,1.0,13.5
+600,2026-10-16,Caesar Salad,3.0,8.5
+601,2026-10-20,French Fries,2.0,4.0
+602,2026-10-02,Iced Coffee,2.0,3.0
+603,2026-10-18,Fresh Orange Juice,1.0,3.5
+604,2026-10-15,Margherita Pizza,1.0,12.0
+605,2026-10-15,Margherita Pizza,2.0,12.0
+606,2026-10-01,Margherita Pizza,3.0,12.0
+607,2026-10-13,Spaghetti Bolognese,3.0,10.5
+608,2026-10-04,Cheeseburger,2.0,11.0
+609,2026-10-20,Caesar Salad,2.0,8.5
+610,2026-10-05,French Fries,2.0,4.0
+611,2026-10-21,Fresh Orange Juice,3.0,3.5
+612,2026-10-17,French Fries,3.0,4.0
+613,2026-10-09,Caesar Salad,3.0,8.5
+614,2026-10-03,Margherita Pizza,1.0,12.0
+615,2026-10-10,Caesar Salad,2.0,8.5
+616,2026-10-08,French Fries,2.0,4.0
+617,2026-10-16,Strawberry Milkshake,3.0,4.5
+618,2026-10-21,Spaghetti Bolognese,3.0,10.5
+619,2026-10-01,Grilled Chicken Burger,1.0,13.5
+620,2026-10-07,Cheeseburger,2.0,11.0
+620,2026-10-07,Cheeseburger,2.0,11.0
+621,2026-10-03,Margherita Pizza,1.0,12.0
+622,2026-10-10,Spaghetti Bolognese,1.0,10.5
+623,2026-10-08,Cheeseburger,2.0,11.0
+624,2026-10-14,Iced Coffee,3.0,3.0
+625,2026-10-12,Cheeseburger,3.0,11.0
+626,2026-10-09,Margherita Pizza,3.0,12.0
+627,2026-10-06,French Fries,3.0,4.0
+628,2026-10-15,Cheeseburger,3.0,11.0
+629,2026-10-18,Caesar Salad,3.0,8.5
+630,2026-10-16,Margherita Pizza,1.0,12.0
+631,2026-10-08,Caesar Salad,3.0,8.5
+632,2026-10-09,Cheeseburger,1.0,11.0
+633,2026-10-15,Strawberry Milkshake,1.0,4.5
+634,2026-10-19,Fresh Orange Juice,2.0,3.5
+635,2026-10-18,Cheeseburger,2.0,11.0
+636,2026-10-12,Grilled Chicken Burger,3.0,13.5
+637,2026-10-09,Cheeseburger,3.0,11.0
+638,2026-10-12,Spaghetti Bolognese,2.0,10.5
+639,2026-10-06,Margherita Pizza,3.0,12.0
+640,2026-10-12,Chocolate Cake,2.0,5.4
+641,2026-10-14,Margherita Pizza,3.0,12.0
+642,2026-10-21,Strawberry Milkshake,2.0,4.5
+643,2026-10-17,Fresh Orange Juice,3.0,3.5
+644,2026-10-16,Fresh Orange Juice,1.0,3.5
+645,2026-10-11,Caesar Salad,3.0,8.5
+646,2026-10-11,Fresh Orange Juice,3.0,3.5
+647,2026-10-19,Iced Coffee,1.0,3.0
+648,2026-10-03,Chocolate Cake,1.0,5.4
+649,2026-10-13,Cheeseburger,1.0,11.0
+650,2026-10-17,Caesar Salad,3.0,8.5
+651,2026-10-07,Margherita Pizza,3.0,12.0
+652,2026-10-21,French Fries,3.0,4.0
+653,2026-10-09,Iced Coffee,1.0,3.0
+654,2026-10-01,Chocolate Cake,2.0,5.4
+655,2026-10-03,Grilled Chicken Burger,1.0,13.5
+656,2026-10-01,Chocolate Cake,3.0,5.4
+657,2026-10-10,Strawberry Milkshake,3.0,4.5
+658,2026-10-02,Strawberry Milkshake,3.0,4.5
+659,2026-10-14,Margherita Pizza,1.0,12.0
+660,2026-10-09,Strawberry Milkshake,3.0,4.5
+661,2026-10-10,Margherita Pizza,2.0,12.0
+662,2026-10-08,Chocolate Cake,3.0,5.4
+663,2026-10-17,Spaghetti Bolognese,3.0,10.5
+664,2026-10-02,Spaghetti Bolognese,2.0,10.5
+665,2026-10-10,Iced Coffee,2.0,3.0
+666,2026-10-15,Grilled Chicken Burger,2.0,13.5
+667,2026-10-17,Cheeseburger,2.0,11.0
+668,2026-10-15,Caesar Salad,3.0,8.5
+669,2026-10-17,Spaghetti Bolognese,1.0,10.5
+670,2026-10-15,Grilled Chicken Burger,2.0,13.5
+671,2026-10-09,Grilled Chicken Burger,3.0,13.5
+672,2026-10-17,Grilled Chicken Burger,3.0,13.5
+672,2026-10-17,Grilled Chicken Burger,3.0,13.5
+673,2026-10-03,Iced Coffee,3.0,3.0
+674,2026-10-19,Caesar Salad,3.0,8.5
+675,2026-10-16,Fresh Orange Juice,3.0,3.5
+676,2026-10-16,Strawberry Milkshake,3.0,4.5
+677,2026-10-17,French Fries,1.0,4.0
+678,2026-10-16,Iced Coffee,2.0,3.0
+679,2026-10-05,Caesar Salad,3.0,8.5
+680,2026-10-10,Strawberry Milkshake,1.0,4.5
+681,2026-10-05,Strawberry Milkshake,2.0,4.5
+682,2026-10-21,Cheeseburger,2.0,11.0
+683,2026-10-10,Strawberry Milkshake,2.0,4.5
+684,2026-10-12,Strawberry Milkshake,1.0,4.5
+685,2026-10-19,Caesar Salad,1.0,8.5
+686,2026-10-02,Caesar Salad,2.0,8.5
+687,2026-10-20,Iced Coffee,1.0,3.0
+688,2026-10-02,French Fries,1.0,4.0
+689,2026-10-19,Grilled Chicken Burger,2.0,13.5
+690,2026-10-01,Spaghetti Bolognese,3.0,10.5
+690,2026-10-01,Spaghetti Bolognese,3.0,10.5
+691,2026-10-19,Chocolate Cake,3.0,5.4
+692,2026-10-13,Cheeseburger,1.0,11.0
+693,2026-10-12,Iced Coffee,2.0,3.0
+694,2026-10-18,Strawberry Milkshake,3.0,4.5
+695,2026-10-15,French Fries,1.0,4.0
+696,2026-10-14,Strawberry Milkshake,3.0,4.5
+697,2026-10-13,Spaghetti Bolognese,1.0,10.5
+698,2026-10-16,Spaghetti Bolognese,2.0,10.5
+699,2026-10-09,Grilled Chicken Burger,3.0,13.5
+700,2026-10-10,Strawberry Milkshake,3.0,4.5
+701,2026-10-11,Margherita Pizza,2.0,12.0
+702,2026-10-15,Caesar Salad,1.0,8.5
+703,2026-10-21,Chocolate Cake,1.0,5.4
+704,2026-10-08,Chocolate Cake,2.0,5.4
+705,2026-10-09,French Fries,3.0,4.0
+706,2026-10-03,Spaghetti Bolognese,1.0,10.5
+707,2026-10-15,Iced Coffee,1.0,3.0
+708,2026-10-11,Margherita Pizza,1.0,12.0
+709,2026-10-19,Fresh Orange Juice,3.0,3.5
+710,2026-10-03,Caesar Salad,3.0,8.5
+711,2026-10-17,Spaghetti Bolognese,3.0,10.5
+712,2026-10-05,Caesar Salad,3.0,8.5
+713,2026-10-08,Strawberry Milkshake,3.0,4.5
+714,2026-10-15,Cheeseburger,2.0,11.0
+715,2026-10-11,Margherita Pizza,3.0,12.0
+716,2026-10-07,Caesar Salad,3.0,8.5
+717,2026-10-14,Fresh Orange Juice,1.0,3.5
+718,2026-10-19,Grilled Chicken Burger,3.0,13.5
+719,2026-10-15,Strawberry Milkshake,1.0,4.5
+720,2026-10-17,Iced Coffee,1.0,3.0
+721,2026-10-05,Cheeseburger,1.0,11.0
+722,2026-10-16,Grilled Chicken Burger,1.0,13.5
+723,2026-10-03,Chocolate Cake,3.0,5.4
+724,2026-10-15,Fresh Orange Juice,3.0,3.5
+725,2026-10-16,Fresh Orange Juice,3.0,3.5
+726,2026-10-02,Strawberry Milkshake,3.0,4.5
+727,2026-10-03,French Fries,3.0,4.0
+728,2026-10-11,Spaghetti Bolognese,1.0,10.5
+729,2026-10-21,Caesar Salad,1.0,8.5
+730,2026-10-21,Margherita Pizza,3.0,12.0
+731,2026-10-13,Grilled Chicken Burger,1.0,13.5
+732,2026-10-01,French Fries,2.0,4.0
+733,2026-10-17,Cheeseburger,3.0,11.0
+734,2026-10-05,Chocolate Cake,3.0,5.4
+735,2026-10-08,Spaghetti Bolognese,3.0,10.5
+736,2026-10-19,Iced Coffee,2.0,3.0
+737,2026-10-16,Grilled Chicken Burger,3.0,13.5
+738,2026-10-17,Strawberry Milkshake,1.0,4.5
+739,2026-10-11,French Fries,1.0,4.0
+740,2026-10-05,French Fries,1.0,4.0
+741,2026-10-06,Margherita Pizza,2.0,12.0
+742,2026-10-02,Fresh Orange Juice,1.0,3.5
+743,2026-10-08,Cheeseburger,1.0,11.0
+744,2026-10-10,Grilled Chicken Burger,1.0,13.5
+744,2026-10-10,Grilled Chicken Burger,1.0,13.5
+745,2026-10-06,Fresh Orange Juice,2.0,3.5
+746,2026-10-14,Strawberry Milkshake,1.0,4.5
+746,2026-10-14,Strawberry Milkshake,1.0,4.5
+747,2026-10-07,French Fries,3.0,4.0
+748,2026-10-12,Chocolate Cake,1.0,5.4
+749,2026-10-03,Chocolate Cake,1.0,5.4
+750,2026-10-04,Caesar Salad,3.0,8.5
+751,2026-10-13,Spaghetti Bolognese,1.0,10.5
+752,2026-10-02,Grilled Chicken Burger,3.0,13.5
+753,2026-10-08,Spaghetti Bolognese,2.0,10.5
+754,2026-10-13,Chocolate Cake,3.0,5.4
+754,2026-10-13,Chocolate Cake,3.0,5.4
+755,2026-10-03,Cheeseburger,3.0,11.0
+756,2026-10-07,Chocolate Cake,2.0,5.4
+757,2026-10-21,Caesar Salad,3.0,8.5
+758,2026-10-09,Iced Coffee,1.0,3.0
+759,2026-10-20,Grilled Chicken Burger,2.0,13.5
+760,2026-10-19,Caesar Salad,1.0,8.5
+761,2026-10-16,Margherita Pizza,3.0,12.0
+762,2026-10-14,Strawberry Milkshake,3.0,4.5
+763,2026-10-17,Iced Coffee,1.0,3.0
+764,2026-10-14,Chocolate Cake,3.0,5.4
+765,2026-10-07,Iced Coffee,2.0,3.0
+766,2026-10-19,French Fries,2.0,4.0
+767,2026-10-17,Chocolate Cake,2.0,5.4
+768,2026-10-15,French Fries,1.0,4.0
+769,2026-10-20,Chocolate Cake,2.0,5.4
+770,2026-10-03,Spaghetti Bolognese,3.0,10.5
+771,2026-10-16,Strawberry Milkshake,3.0,4.5
+772,2026-10-21,Strawberry Milkshake,2.0,4.5
+772,2026-10-21,Strawberry Milkshake,2.0,4.5
+773,2026-10-02,Fresh Orange Juice,3.0,3.5
+774,2026-10-08,Cheeseburger,1.0,11.0
+775,2026-10-21,Margherita Pizza,1.0,12.0
+776,2026-10-14,Cheeseburger,2.0,11.0
+777,2026-10-04,Grilled Chicken Burger,1.0,13.5
+778,2026-10-19,Margherita Pizza,1.0,12.0
+779,2026-10-07,Margherita Pizza,3.0,12.0
+780,2026-10-07,Grilled Chicken Burger,2.0,13.5
+781,2026-10-20,Grilled Chicken Burger,3.0,13.5
+782,2026-10-13,Margherita Pizza,1.0,12.0
+783,2026-10-07,French Fries,3.0,4.0
+784,2026-10-14,Chocolate Cake,1.0,5.4
+785,2026-10-17,Spaghetti Bolognese,2.0,10.5
+786,2026-10-18,Margherita Pizza,2.0,12.0
+787,2026-10-20,Strawberry Milkshake,1.0,4.5
+788,2026-10-08,French Fries,3.0,4.0
+789,2026-10-06,Margherita Pizza,1.0,12.0
+790,2026-10-05,Fresh Orange Juice,2.0,3.5
+791,2026-10-15,Spaghetti Bolognese,2.0,10.5
+792,2026-10-08,Cheeseburger,3.0,11.0
+793,2026-10-06,Chocolate Cake,2.0,5.4
+794,2026-10-08,Cheeseburger,1.0,11.0
+795,2026-10-11,Fresh Orange Juice,2.0,3.5
+796,2026-10-15,Spaghetti Bolognese,1.0,10.5
+797,2026-10-06,Margherita Pizza,3.0,12.0
+798,2026-10-01,Spaghetti Bolognese,1.0,10.5
+799,2026-10-01,Spaghetti Bolognese,2.0,10.5
+800,2026-10-09,Caesar Salad,3.0,8.5
+801,2026-10-03,Chocolate Cake,2.0,5.4
+802,2026-10-13,Spaghetti Bolognese,2.0,10.5
+803,2026-10-10,Strawberry Milkshake,2.0,4.5
+804,2026-10-08,Caesar Salad,1.0,8.5
+805,2026-10-09,French Fries,1.0,4.0
+806,2026-10-04,Fresh Orange Juice,3.0,3.5
+807,2026-10-10,French Fries,3.0,4.0
+808,2026-10-14,Caesar Salad,2.0,8.5
+809,2026-10-11,Strawberry Milkshake,1.0,4.5
+810,2026-10-17,Chocolate Cake,2.0,5.4
+811,2026-10-21,Margherita Pizza,1.0,12.0
+812,2026-10-02,Strawberry Milkshake,1.0,4.5
+813,2026-10-14,Chocolate Cake,3.0,5.4
+814,2026-10-15,Grilled Chicken Burger,2.0,13.5
+815,2026-10-15,Grilled Chicken Burger,2.0,13.5
+816,2026-10-05,Cheeseburger,3.0,11.0
+817,2026-10-08,Chocolate Cake,1.0,5.4
+818,2026-10-13,Margherita Pizza,3.0,12.0
+819,2026-10-09,Fresh Orange Juice,1.0,3.5
+820,2026-10-21,Strawberry Milkshake,1.0,4.5
+821,2026-10-20,Grilled Chicken Burger,1.0,13.5
+822,2026-10-03,Cheeseburger,2.0,11.0
+823,2026-10-18,Grilled Chicken Burger,2.0,13.5
+824,2026-10-17,French Fries,3.0,4.0
+825,2026-10-20,Chocolate Cake,3.0,5.4
+826,2026-10-03,Cheeseburger,3.0,11.0
+827,2026-10-13,Grilled Chicken Burger,3.0,13.5
+828,2026-10-08,Caesar Salad,2.0,8.5
+829,2026-10-06,Caesar Salad,3.0,8.5
+830,2026-10-20,Fresh Orange Juice,3.0,3.5
+831,2026-10-19,Margherita Pizza,1.0,12.0
+832,2026-10-18,French Fries,2.0,4.0
+833,2026-10-13,Spaghetti Bolognese,3.0,10.5
+834,2026-10-03,Caesar Salad,2.0,8.5
+835,2026-10-17,Fresh Orange Juice,3.0,3.5
+836,2026-10-18,Iced Coffee,1.0,3.0
+837,2026-10-21,Iced Coffee,3.0,3.0
+838,2026-10-01,Strawberry Milkshake,3.0,4.5
+839,2026-10-01,Margherita Pizza,3.0,12.0
+840,2026-10-09,Strawberry Milkshake,1.0,4.5
+841,2026-10-01,Chocolate Cake,3.0,5.4
+842,2026-10-03,Cheeseburger,2.0,11.0
+843,2026-10-09,Chocolate Cake,3.0,5.4
+844,2026-10-11,Strawberry Milkshake,1.0,4.5
+845,2026-10-19,Fresh Orange Juice,1.0,3.5
+846,2026-10-16,French Fries,3.0,4.0
+847,2026-10-02,Iced Coffee,1.0,3.0
+848,2026-10-19,Caesar Salad,2.0,8.5
+849,2026-10-13,Chocolate Cake,1.0,5.4
+850,2026-10-12,Iced Coffee,3.0,3.0
+851,2026-10-21,Chocolate Cake,1.0,5.4
+852,2026-10-13,Margherita Pizza,2.0,12.0
+853,2026-10-11,Spaghetti Bolognese,2.0,10.5
+854,2026-10-05,Iced Coffee,3.0,3.0
+855,2026-10-20,Strawberry Milkshake,3.0,4.5
+856,2026-10-15,Caesar Salad,2.0,8.5
+857,2026-10-20,Cheeseburger,2.0,11.0
+858,2026-10-03,Spaghetti Bolognese,2.0,10.5
+859,2026-10-14,Fresh Orange Juice,3.0,3.5
+860,2026-10-20,Cheeseburger,2.0,11.0
+861,2026-10-05,Caesar Salad,2.0,8.5
+862,2026-10-16,Margherita Pizza,1.0,12.0
+863,2026-10-11,Strawberry Milkshake,1.0,4.5
+864,2026-10-12,Strawberry Milkshake,3.0,4.5
+865,2026-10-19,French Fries,1.0,4.0
+866,2026-10-14,French Fries,3.0,4.0
+867,2026-10-15,Cheeseburger,2.0,11.0
+868,2026-10-03,French Fries,1.0,4.0
+869,2026-10-19,Caesar Salad,2.0,8.5
+870,2026-10-09,Spaghetti Bolognese,2.0,10.5
+871,2026-10-01,Fresh Orange Juice,2.0,3.5
+872,2026-10-13,Caesar Salad,2.0,8.5
+873,2026-10-20,Caesar Salad,3.0,8.5
+874,2026-10-18,Caesar Salad,1.0,8.5
+875,2026-10-18,Margherita Pizza,1.0,12.0
+876,2026-10-17,Strawberry Milkshake,2.0,4.5
+877,2026-10-20,Cheeseburger,1.0,11.0
+878,2026-10-14,Caesar Salad,1.0,8.5
+879,2026-10-07,Fresh Orange Juice,1.0,3.5
+880,2026-10-08,Fresh Orange Juice,2.0,3.5
+881,2026-10-13,Strawberry Milkshake,1.0,4.5
+882,2026-10-17,Spaghetti Bolognese,3.0,10.5
+883,2026-10-05,Grilled Chicken Burger,1.0,13.5
+884,2026-10-14,Grilled Chicken Burger,3.0,13.5
+884,2026-10-14,Grilled Chicken Burger,3.0,13.5
+885,2026-10-07,French Fries,2.0,4.0
+886,2026-10-03,Grilled Chicken Burger,3.0,13.5
+887,2026-10-03,Iced Coffee,2.0,3.0
+888,2026-10-09,Margherita Pizza,2.0,12.0
+889,2026-10-17,Caesar Salad,1.0,8.5
+890,2026-10-02,Iced Coffee,1.0,3.0
+891,2026-10-17,Caesar Salad,2.0,8.5
+892,2026-10-06,Cheeseburger,3.0,11.0
+893,2026-10-12,Fresh Orange Juice,3.0,3.5
+894,2026-10-21,Fresh Orange Juice,3.0,3.5
+895,2026-10-06,Chocolate Cake,1.0,5.4
+896,2026-10-16,Caesar Salad,1.0,8.5
+897,2026-10-15,Strawberry Milkshake,1.0,4.5
+898,2026-10-02,Iced Coffee,3.0,3.0
+899,2026-10-08,Strawberry Milkshake,2.0,4.5
+900,2026-10-18,Strawberry Milkshake,3.0,4.5
+901,2026-10-11,Spaghetti Bolognese,2.0,10.5
+902,2026-10-03,French Fries,1.0,4.0
+903,2026-10-08,Strawberry Milkshake,3.0,4.5
+904,2026-10-14,Chocolate Cake,2.0,5.4
+905,2026-10-03,Caesar Salad,3.0,8.5
+906,2026-10-12,Chocolate Cake,2.0,5.4
+907,2026-10-03,Strawberry Milkshake,1.0,4.5
+908,2026-10-20,Caesar Salad,2.0,8.5
+909,2026-10-15,Spaghetti Bolognese,1.0,10.5
+910,2026-10-19,Spaghetti Bolognese,3.0,10.5
+911,2026-10-04,Strawberry Milkshake,2.0,4.5
+912,2026-10-14,Chocolate Cake,3.0,5.4
+913,2026-10-08,Spaghetti Bolognese,3.0,10.5
+914,2026-10-10,Caesar Salad,2.0,8.5
+915,2026-10-20,Spaghetti Bolognese,2.0,10.5
+916,2026-10-08,Strawberry Milkshake,3.0,4.5
+917,2026-10-18,French Fries,1.0,4.0
+918,2026-10-16,Iced Coffee,3.0,3.0
+919,2026-10-21,Fresh Orange Juice,1.0,3.5
+920,2026-10-17,Chocolate Cake,3.0,5.4
+921,2026-10-07,Strawberry Milkshake,3.0,4.5
+922,2026-10-19,Fresh Orange Juice,1.0,3.5
+923,2026-10-12,Strawberry Milkshake,1.0,4.5
+924,2026-10-13,Margherita Pizza,1.0,12.0
+925,2026-10-03,Iced Coffee,3.0,3.0
+926,2026-10-21,Strawberry Milkshake,3.0,4.5
+927,2026-10-15,Spaghetti Bolognese,1.0,10.5
+928,2026-10-21,Cheeseburger,3.0,11.0
+929,2026-10-10,Margherita Pizza,3.0,12.0
+930,2026-10-10,Grilled Chicken Burger,3.0,13.5
+931,2026-10-09,Chocolate Cake,3.0,5.4
+932,2026-10-17,French Fries,2.0,4.0
+933,2026-10-21,Margherita Pizza,1.0,12.0
+934,2026-10-03,Cheeseburger,3.0,11.0
+935,2026-10-12,Cheeseburger,1.0,11.0
+936,2026-10-10,Grilled Chicken Burger,2.0,13.5
+937,2026-10-06,Spaghetti Bolognese,1.0,10.5
+938,2026-10-14,French Fries,1.0,4.0
+939,2026-10-08,Fresh Orange Juice,3.0,3.5
+940,2026-10-13,Fresh Orange Juice,1.0,3.5
+941,2026-10-20,Grilled Chicken Burger,1.0,13.5
+942,2026-10-11,Iced Coffee,2.0,3.0
+943,2026-10-06,Margherita Pizza,2.0,12.0
+944,2026-10-07,Caesar Salad,2.0,8.5
+945,2026-10-08,Cheeseburger,2.0,11.0
+946,2026-10-12,Chocolate Cake,2.0,5.4
+947,2026-10-02,Grilled Chicken Burger,2.0,13.5
+948,2026-10-07,Chocolate Cake,2.0,5.4
+949,2026-10-20,Caesar Salad,2.0,8.5
+950,2026-10-11,Iced Coffee,3.0,3.0
+951,2026-10-19,Fresh Orange Juice,3.0,3.5
+952,2026-10-10,Spaghetti Bolognese,3.0,10.5
+953,2026-10-08,Iced Coffee,2.0,3.0
+954,2026-10-13,Margherita Pizza,3.0,12.0
+955,2026-10-20,Strawberry Milkshake,3.0,4.5
+956,2026-10-01,Spaghetti Bolognese,2.0,10.5
+957,2026-10-11,Chocolate Cake,2.0,5.4
+958,2026-10-18,Cheeseburger,2.0,11.0
+959,2026-10-14,French Fries,2.0,4.0
+959,2026-10-14,French Fries,2.0,4.0
+960,2026-10-19,Chocolate Cake,3.0,5.4
+961,2026-10-01,French Fries,1.0,4.0
+962,2026-10-19,Grilled Chicken Burger,3.0,13.5
+963,2026-10-01,Strawberry Milkshake,1.0,4.5
+964,2026-10-18,French Fries,3.0,4.0
+965,2026-10-16,Chocolate Cake,1.0,5.4
+966,2026-10-03,French Fries,1.0,4.0
+967,2026-10-21,Fresh Orange Juice,3.0,3.5
+968,2026-10-02,Chocolate Cake,2.0,5.4
+969,2026-10-01,Cheeseburger,1.0,11.0
+970,2026-10-08,Chocolate Cake,3.0,5.4
+971,2026-10-11,Fresh Orange Juice,2.0,3.5
+972,2026-10-19,Spaghetti Bolognese,1.0,10.5
+973,2026-10-19,Strawberry Milkshake,3.0,4.5
+974,2026-10-17,Grilled Chicken Burger,2.0,13.5
+975,2026-10-09,Caesar Salad,2.0,8.5
+976,2026-10-19,Fresh Orange Juice,3.0,3.5
+977,2026-10-05,Margherita Pizza,3.0,12.0
+978,2026-10-18,Grilled Chicken Burger,2.0,13.5
+979,2026-10-19,Caesar Salad,2.0,8.5
+980,2026-10-06,Cheeseburger,2.0,11.0
+981,2026-10-08,Caesar Salad,3.0,8.5
+982,2026-10-14,Strawberry Milkshake,2.0,4.5
+983,2026-10-12,French Fries,2.0,4.0
+984,2026-10-16,French Fries,2.0,4.0
+985,2026-10-09,Caesar Salad,2.0,8.5
+986,2026-10-03,Strawberry Milkshake,3.0,4.5
+987,2026-10-12,Fresh Orange Juice,2.0,3.5
+988,2026-10-16,French Fries,3.0,4.0
+989,2026-10-02,Spaghetti Bolognese,1.0,10.5
+990,2026-10-16,Spaghetti Bolognese,2.0,10.5
+991,2026-10-10,Strawberry Milkshake,1.0,4.5
+992,2026-10-11,Margherita Pizza,2.0,12.0
+993,2026-10-12,Strawberry Milkshake,2.0,4.5
+994,2026-10-10,Grilled Chicken Burger,1.0,13.5
+995,2026-10-16,Iced Coffee,1.0,3.0
+996,2026-10-08,Grilled Chicken Burger,1.0,13.5
+997,2026-10-06,Margherita Pizza,3.0,12.0
+998,2026-10-03,Iced Coffee,2.0,3.0
+999,2026-10-03,Fresh Orange Juice,2.0,3.5
+1000,2026-10-20,Cheeseburger,3.0,11.0
+1001,,Margherita Pizza,3.0,12.0
+1002,,Cheeseburger,2.0,11.0
+1003,,Caesar Salad,1.0,8.5
+1004,,Chocolate Cake,2.0,5.4
+1005,,Margherita Pizza,3.0,12.0
+1006,2026-10-21,,3.0,8.5
+1007,2026-10-04,,2.0,5.4
+1008,2026-10-06,,3.0,3.5
+1009,2026-10-16,,1.0,3.5
+1010,2026-10-19,,1.0,8.5
+1011,2026-10-14,Cheeseburger,,11.0
+1012,2026-10-10,Strawberry Milkshake,,4.5
+1013,2026-10-07,Cheeseburger,,11.0
+1014,2026-10-02,Iced Coffee,,3.0
+1015,2026-10-08,Spaghetti Bolognese,,10.5
+1016,2026-10-13,Grilled Chicken Burger,1.0,
+1017,2026-10-07,French Fries,3.0,
+1018,2026-10-10,Strawberry Milkshake,3.0,
+1019,2026-10-19,Grilled Chicken Burger,2.0,
+1020,2026-10-11,Margherita Pizza,1.0,
