@@ -466,13 +466,18 @@ The `--use_legacy_sql=false` option enables **GoogleSQL (Standard SQL)**, which 
 
 Query results are printed directly in the terminal. The queries analyze the data stored in the `restaurant_analytics.orders` BigQuery table. The result of the sales analysis by product query is shown:
 
-| Product | Units Sold | Revenue |
-|---|---:|---:|
-| Burger | 6 | 54.00 |
-| Pizza | 6 | 51.00 |
-| Pasta | 3 | 30.00 |
-| Salad | 1 | 7.50 |
-| **Total** | **16** | **142.50** |
+| Product                | Total Quantity | Revenue |
+|------------------------|---------------:|--------:|
+| Cheeseburger           |          220.0 | 2420.0  |
+| Margherita Pizza       |          196.0 | 2352.0  |
+| Grilled Chicken Burger |          170.0 | 2295.0  |
+| Spaghetti Bolognese    |          207.0 | 2173.5  |
+| Caesar Salad           |          203.0 | 1725.5  |
+| Chocolate Cake         |          234.0 | 1263.6  |
+| Strawberry Milkshake   |          228.0 | 1026.0  |
+| French Fries           |          198.0 | 792.0   |
+| Fresh Orange Juice     |          184.0 | 644.0   |
+| Iced Coffee            |          194.0 | 582.0   |
 
 ## Conclusion
 
